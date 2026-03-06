@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\adij7\.gradle\caches\8.9\transforms\1ad575f43947b03a783ce6261c36d507\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\adij7\.gradle\caches\8.9\transforms\f11eedec15d22e70592abcd137dc1e41\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\adij7\.gradle\caches\8.9\transforms\8d2be96f8522ee4f1c76ca40240a8529\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -80,8 +80,8 @@ ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
 		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:9:5-39:19
-INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:9:5-39:19
+ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:9:5-40:19
+INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:9:5-40:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\adij7\.gradle\caches\8.9\transforms\1ad575f43947b03a783ce6261c36d507\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\adij7\.gradle\caches\8.9\transforms\1ad575f43947b03a783ce6261c36d507\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\adij7\.gradle\caches\8.9\transforms\f11eedec15d22e70592abcd137dc1e41\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -107,61 +107,63 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\adij7\.gradle\caches\8.9\transforms\96ac2b7d1e42fdf6e7b010d75f3ea71b\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:15:9-41
 	android:fullBackupContent
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:13:9-54
 	android:roundIcon
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:18:9-43
 	android:dataExtractionRules
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:12:9-65
 	android:usesCleartextTraffic
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:18:9-44
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:19:9-45
+	android:name
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:10:9-41
 activity#com.example.markr.LoginActivity
-ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:19:9-28:20
+ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:20:9-29:20
 	android:windowSoftInputMode
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:22:13-55
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:23:13-55
 	android:exported
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:20:13-42
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:21:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:27:27-74
 activity#com.example.markr.SignUpActivity
-ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:29:9-32:58
+ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:30:9-33:58
 	android:windowSoftInputMode
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:32:13-55
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:33:13-55
 	android:exported
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:30:13-43
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:31:13-43
 activity#com.example.markr.ForgotPasswordActivity
-ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:33:9-35:40
+ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:34:13-51
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:35:13-51
 activity#com.example.markr.MainActivity
-ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:36:9-38:40
+ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:37:13-41
+		ADDED from E:\Markr Firebase\app\src\main\AndroidManifest.xml:38:13-41
 uses-sdk
 INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Markr Firebase\app\src\main\AndroidManifest.xml
