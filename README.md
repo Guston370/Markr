@@ -1,2 +1,0 @@
-# Markr
-Attendance Calculator App
