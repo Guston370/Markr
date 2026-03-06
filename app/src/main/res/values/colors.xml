@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light Primary Colors - Bright Blue -->
+    <color name="primary_color">#FF3B82F6</color>
+    <color name="primary_dark">#FF2563EB</color>
+    <color name="primary_light">#FF60A5FA</color>
+    <color name="primary_variant">#FF93C5FD</color>
+    <color name="primary_container">#FFEFF6FF</color>
+
+    <!-- Light Secondary Colors - Soft Gray -->
+    <color name="secondary_color">#FF6B7280</color>
+    <color name="secondary_dark">#FF4B5563</color>
+    <color name="secondary_light">#FF9CA3AF</color>
+    <color name="secondary_variant">#FFD1D5DB</color>
+
+    <!-- Light Accent Colors - Bright Orange -->
+    <color name="accent_color">#FFF59E0B</color>
+    <color name="accent_dark">#FFD97706</color>
+    <color name="accent_light">#FFFDE68B</color>
+
+    <!-- Light Text Colors - Readable Contrast -->
+    <color name="primary_text">#FF1F2937</color>
+    <color name="secondary_text">#FF4B5563</color>
+    <color name="tertiary_text">#FF6B7280</color>
+    <color name="text_on_primary">#FFFFFFFF</color>
+    <color name="text_on_secondary">#FFFFFFFF</color>
+
+    <!-- Light Status Colors -->
+    <color name="success_color">#FF10B981</color>
+    <color name="warning_color">#FFF59E0B</color>
+    <color name="error_color">#FFEF4444</color>
+    <color name="info_color">#FF3B82F6</color>
+
+    <!-- Light Background Colors -->
+    <color name="background_color">#FFFFFFFF</color>
+    <color name="surface_color">#FFFFFFFF</color>
+    <color name="surface_variant">#FFF8FAFC</color>
+    <color name="surface_container">#FFFFFFFF</color>
+
+    <!-- Light Neutral Colors -->
+    <color name="light_gray">#FFF8FAFC</color>
+    <color name="medium_gray">#FFE5E7EB</color>
+    <color name="dark_gray">#FF9CA3AF</color>
+    <color name="border_color">#FFE5E7EB</color>
+    <color name="divider_color">#FFF1F5F9</color>
+
+    <!-- Light Gradient Colors -->
+    <color name="gradient_start">#FF3B82F6</color>
+    <color name="gradient_end">#FF60A5FA</color>
+    <color name="gradient_secondary_start">#FF6B7280</color>
+    <color name="gradient_secondary_end">#FF9CA3AF</color>
+
+    <!-- Light Card Colors -->
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="card_elevated">#FFFFFFFF</color>
+    <color name="card_outline">#FFE5E7EB</color>
+
+    <!-- Light Button Colors -->
+    <color name="button_primary">#FF3B82F6</color>
+    <color name="button_secondary">#FF6B7280</color>
+    <color name="button_outline">#FF3B82F6</color>
+    <color name="button_text">#FF3B82F6</color>
+
+    <!-- Enhanced Calendar Colors for Better Visibility -->
+    <color name="calendar_today">#FF3B82F6</color>
+    <color name="calendar_selected">#FF60A5FA</color>
+    <color name="calendar_lecture_day">#FF10B981</color>
+    <color name="calendar_weekend">#FFF8FAFC</color>
+    <color name="calendar_other_month">#FF9CA3AF</color>
+    <color name="calendar_today_text">#FFFFFFFF</color>
+    <color name="calendar_selected_text">#FFFFFFFF</color>
+    <color name="calendar_lecture_text">#FFFFFFFF</color>
+    <color name="calendar_normal_text">#FF1F2937</color>
+    <color name="calendar_other_month_text">#FF6B7280</color>
+    <color name="calendar_weekend_text">#FF4B5563</color>
+    
+    <!-- Selected Date Border Color - Subtle Blue that blends with theme -->
+    <color name="calendar_selected_border">#FF3B82F6</color>
+    <color name="calendar_selected_border_light">#FF93C5FD</color>
+
+    <!-- Professional Session Status Colors -->
+    <color name="session_present">#FF10B981</color>
+    <color name="session_absent">#FFEF4444</color>
+    <color name="session_not_conducted">#FFF59E0B</color>
+    <color name="session_unmarked">#FF9CA3AF</color>
+
+    <!-- Modern Shadow Colors -->
+    <color name="shadow_light">#1A000000</color>
+    <color name="shadow_medium">#33000000</color>
+    <color name="shadow_dark">#4D000000</color>
+
+    <!-- Modern Overlay Colors -->
+    <color name="overlay_light">#1AFFFFFF</color>
+    <color name="overlay_medium">#33FFFFFF</color>
+    <color name="overlay_dark">#4DFFFFFF</color>
+
+    <!-- Bottom Navigation Colors - Maximum Visibility -->
+    <color name="bottom_nav_active_icon">@color/primary_color</color>
+    <color name="bottom_nav_active_text">@color/primary_color</color>
+    <color name="bottom_nav_inactive_icon">@color/primary_text</color>
+    <color name="bottom_nav_inactive_text">@color/primary_text</color>
+    
+    
+    <!-- Ripple Effect Colors -->
+    <color name="ripple_effect">#1A3B82F6</color>
+</resources>

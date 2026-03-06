@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.markr.app-mergeDebugResources-38:/values-v23/values-v23.xml",
+            "outputFile": "com.example.markr.app-mergeDebugResources-35:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\adij7\\.gradle\\caches\\8.13\\transforms\\c922a972b3b5c6252a1dcd8c2f4200c1\\transformed\\material-1.13.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\adij7\\.gradle\\caches\\8.9\\transforms\\1ad575f43947b03a783ce6261c36d507\\transformed\\material-1.12.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\adij7\\.gradle\\caches\\8.13\\transforms\\ed71b32cfda801793381e652f4cb1ed3\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\adij7\\.gradle\\caches\\8.9\\transforms\\f1da2e982bca8e4ef919b67a53ac7157\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\adij7\\.gradle\\caches\\8.13\\transforms\\3bdcc32be193c19d16f3e60960c64762\\transformed\\appcompat-1.7.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\adij7\\.gradle\\caches\\8.9\\transforms\\af084e9b70f19865218159a1d17a6ed9\\transformed\\appcompat-1.7.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Markr</string>
+    <string name="app_title">Attendance Calculator</string>
+    <string name="app_subtitle">Track your college attendance easily</string>
+    <string name="subject_hint">Subject Name</string>
+    <string name="total_classes_hint">Total Classes</string>
+    <string name="attended_classes_hint">Classes Attended</string>
+    <string name="min_attendance_hint">Minimum Attendance %</string>
+    <string name="calculate_button">Calculate Attendance</string>
+    <string name="save_button">Save Record</string>
+    <string name="saved_records_title">Saved Records</string>
+    <string name="attendance_percentage">%.1f%%</string>
+    <string name="attendance_good">Good! You\'re above minimum requirement</string>
+    <string name="attendance_warning">Warning! Below minimum requirement</string>
+    <string name="attendance_critical">Critical! You need to attend more classes</string>
+    <string name="classes_needed_format" formatted="false">You need to attend %d more classes to reach %.1f%%</string>
+    <string name="classes_safe_format" formatted="false">You can miss %d more classes and still maintain %.1f%%</string>
+    <string name="error_invalid_input">Please enter valid numbers</string>
+    <string name="error_attended_greater">Attended classes cannot be greater than total classes</string>
+    <string name="error_empty_fields">Please fill all fields</string>
+    <string name="delete_record">Delete</string>
+    <string name="edit_record">Edit</string>
+    <string name="record_date_format">Saved on %s</string>
+</resources>

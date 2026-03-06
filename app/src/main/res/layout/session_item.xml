@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/surface_color">
+
+    <!-- Session Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📝"
+            android:textSize="16sp"
+            android:layout_marginEnd="6dp" />
+
+        <TextView
+            android:id="@+id/sessionNumberText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Session 1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/sessionStatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unmarked"
+            android:textSize="11sp"
+            android:textColor="@color/primary_text"
+            android:background="@drawable/status_background_unmarked"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp" />
+
+    </LinearLayout>
+
+    <!-- Session Action Icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="4dp">
+
+        <!-- Present Icon -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/presentButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="✓"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            style="@style/Widget.Material3.Button.IconButton"
+            app:backgroundTint="@color/session_present"
+            app:cornerRadius="24dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Mark as Present" />
+
+        <!-- Absent Icon -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/absentButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="✗"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            style="@style/Widget.Material3.Button.IconButton"
+            app:backgroundTint="@color/session_absent"
+            app:cornerRadius="24dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Mark as Absent" />
+
+        <!-- Not Conducted Icon -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/notConductedButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="—"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            style="@style/Widget.Material3.Button.IconButton"
+            app:backgroundTint="@color/session_not_conducted"
+            app:cornerRadius="24dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Mark as Not Conducted" />
+
+        <!-- Unmark/Reset Icon -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/unmarkedButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="↺"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            style="@style/Widget.Material3.Button.IconButton"
+            app:backgroundTint="@color/session_unmarked"
+            app:cornerRadius="24dp"
+            android:contentDescription="Reset/Unmark" />
+
+    </LinearLayout>
+
+</LinearLayout>

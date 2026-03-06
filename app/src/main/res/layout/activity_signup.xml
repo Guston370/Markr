@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/modern_background_gradient"
+    android:scrollbars="vertical"
+    android:fadeScrollbars="false"
+    android:scrollbarStyle="outsideOverlay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Modern Header Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Modern App Logo -->
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="12dp"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="@string/app_name"
+                android:elevation="8dp" />
+
+            <!-- Modern App Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Markr"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"
+                android:layout_marginBottom="2dp"
+                android:shadowColor="@color/shadow_medium"
+                android:shadowDx="0"
+                android:shadowDy="2"
+                android:shadowRadius="8" />
+
+            <!-- Modern Subtitle -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create your account to get started"
+                android:textSize="14sp"
+                android:textColor="@color/primary_text"
+                android:alpha="0.9" />
+
+        </LinearLayout>
+
+        <!-- Modern Sign Up Form Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="16dp"
+            app:cardBackgroundColor="@color/surface_color"
+            app:strokeColor="@color/card_outline"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+                <!-- Personal Information Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="👤 Personal Information"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:layout_marginBottom="12dp"
+                    android:letterSpacing="-0.01" />
+
+                <!-- Modern Name Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Full Name"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_person"
+                    app:startIconTint="@color/primary_color"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/nameEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="textPersonName"
+                        android:autofillHints="name"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Modern Email Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Email Address"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_email"
+                    app:startIconTint="@color/primary_color"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/emailEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="textEmailAddress"
+                        android:autofillHints="email"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Modern Password Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Password"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_lock"
+                    app:startIconTint="@color/primary_color"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/secondary_text"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passwordEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="textPassword"
+                        android:autofillHints="newPassword"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Modern Confirm Password Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:hint="Confirm Password"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_lock"
+                    app:startIconTint="@color/primary_color"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/secondary_text"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/confirmPasswordEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="textPassword"
+                        android:autofillHints="newPassword"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Academic Information Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎓 Academic Information"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:layout_marginBottom="12dp"
+                    android:letterSpacing="-0.01" />
+
+                <!-- Modern Student ID Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Student ID"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_id"
+                    app:startIconTint="@color/secondary_color"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/studentIdEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="text"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Modern Degree Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Degree (B.Tech, B.Sc, etc.)"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_semester"
+                    app:startIconTint="@color/secondary_color"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/degreeEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="text"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Modern Course Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Course/Program"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_book"
+                    app:startIconTint="@color/secondary_color"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/courseEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="text"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Modern Year Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Academic Year (2024-25, etc.)"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_calendar"
+                    app:startIconTint="@color/secondary_color"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/yearEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="text"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Modern Semester Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Semester"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_semester"
+                    app:startIconTint="@color/secondary_color"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/semesterEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="text"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Modern College Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="32dp"
+                    android:hint="College/University"
+                    style="@style/ModernTextField"
+                    app:startIconDrawable="@drawable/ic_school"
+                    app:startIconTint="@color/secondary_color"
+                    app:boxStrokeColor="@color/border_color"
+                    app:hintTextColor="@color/secondary_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/collegeEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:inputType="text"
+                        android:paddingVertical="16dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Modern Sign Up Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/signUpButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:text="Create Account"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    style="@style/ModernButton"
+                    android:elevation="8dp"
+                    android:stateListAnimator="@null" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Modern Login Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text"
+                android:alpha="0.9" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:textColor="@color/primary_text"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+        <!-- Modern Terms and Privacy -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By creating an account, you agree to our Terms of Service and Privacy Policy"
+            android:textSize="12sp"
+            android:textColor="@color/primary_text"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:alpha="0.8" />
+
+    </LinearLayout>
+
+</ScrollView>
