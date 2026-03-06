@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.markr.UserTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-11-15T07:56:41.367Z" hostname="ADITYA" time="0.001">
+  <properties/>
+  <testcase name="testDefaultValues" classname="com.example.markr.UserTest" time="0.0"/>
+  <testcase name="testToString" classname="com.example.markr.UserTest" time="0.0"/>
+  <testcase name="testRegistrationDate" classname="com.example.markr.UserTest" time="0.0"/>
+  <testcase name="testGetPerfectDayPercentage" classname="com.example.markr.UserTest" time="0.0"/>
+  <testcase name="testSettersAndGetters" classname="com.example.markr.UserTest" time="0.0"/>
+  <testcase name="testUpdateStreak" classname="com.example.markr.UserTest" time="0.0"/>
+  <testcase name="testIncrementPerfectDays" classname="com.example.markr.UserTest" time="0.0"/>
+  <testcase name="testIncrementDaysTracked" classname="com.example.markr.UserTest" time="0.0"/>
+  <testcase name="testGetPerfectDayPercentageZeroDays" classname="com.example.markr.UserTest" time="0.0"/>
+  <testcase name="testUserCreation" classname="com.example.markr.UserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

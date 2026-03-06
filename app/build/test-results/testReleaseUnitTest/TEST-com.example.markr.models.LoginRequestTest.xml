@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.markr.models.LoginRequestTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-11-15T07:56:45.213Z" hostname="ADITYA" time="0.001">
+  <properties/>
+  <testcase name="testSettersAndGetters" classname="com.example.markr.models.LoginRequestTest" time="0.0"/>
+  <testcase name="testEmptyCredentials" classname="com.example.markr.models.LoginRequestTest" time="0.0"/>
+  <testcase name="testNullHandling" classname="com.example.markr.models.LoginRequestTest" time="0.001"/>
+  <testcase name="testLoginRequestCreation" classname="com.example.markr.models.LoginRequestTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

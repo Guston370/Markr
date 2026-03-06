@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.markr.SubjectTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-11-15T07:56:45.195Z" hostname="ADITYA" time="0.001">
+  <properties/>
+  <testcase name="testNullWeekdaysHandling" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testHasLectureOnDay" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testGetSessionsForDay" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testCalculateTotalSessions" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testToString" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testSubjectCreation" classname="com.example.markr.SubjectTest" time="0.001"/>
+  <testcase name="testCalculateAttendanceAdviceExactly75" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testCalculateAttendanceAdviceAbove75" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testCalculateAttendancePercentageZeroTotal" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testCalculateAttendancePercentage" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testSetWeekdaysRecalculatesTotalSessions" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testGetSessionsPerWeek" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <testcase name="testCalculateAttendanceAdviceBelow75" classname="com.example.markr.SubjectTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

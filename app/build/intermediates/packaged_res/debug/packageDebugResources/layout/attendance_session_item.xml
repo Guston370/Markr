@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/surface_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Subject and Session Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📚"
+                android:textSize="20sp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/subjectNameText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mathematics"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/sessionNumberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Session 1"
+                android:textSize="14sp"
+                android:textColor="@color/primary_color"
+                android:background="@color/light_gray"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp" />
+
+        </LinearLayout>
+
+        <!-- Current Status -->
+        <TextView
+            android:id="@+id/currentStatusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Unmarked"
+            android:textSize="14sp"
+            android:textColor="@color/secondary_text"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <!-- Attendance Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Present Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/presentButton"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="✅"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                style="@style/Widget.Material3.Button"
+                app:backgroundTint="@color/success_color"
+                app:cornerRadius="8dp" />
+
+            <!-- Absent Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/absentButton"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:text="❌"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                style="@style/Widget.Material3.Button"
+                app:backgroundTint="@color/error_color"
+                app:cornerRadius="8dp" />
+
+            <!-- Not Conducted Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/notConductedButton"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:text="🚫"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                style="@style/Widget.Material3.Button"
+                app:backgroundTint="@color/secondary_text"
+                app:cornerRadius="8dp" />
+
+            <!-- Unmark Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/unmarkButton"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="🔄"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                style="@style/Widget.Material3.Button"
+                app:backgroundTint="@color/warning_color"
+                app:cornerRadius="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.markr.AttendanceSessionTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-11-15T07:56:41.300Z" hostname="ADITYA" time="0.02">
+  <properties/>
+  <testcase name="testToString" classname="com.example.markr.AttendanceSessionTest" time="0.004"/>
+  <testcase name="testTimestampUpdatesOnStatusChange" classname="com.example.markr.AttendanceSessionTest" time="0.014"/>
+  <testcase name="testSettersAndGetters" classname="com.example.markr.AttendanceSessionTest" time="0.0"/>
+  <testcase name="testStatusEnum" classname="com.example.markr.AttendanceSessionTest" time="0.001"/>
+  <testcase name="testSessionCreation" classname="com.example.markr.AttendanceSessionTest" time="0.0"/>
+  <testcase name="testFromString" classname="com.example.markr.AttendanceSessionTest" time="0.0"/>
+  <testcase name="testSessionToString" classname="com.example.markr.AttendanceSessionTest" time="0.001"/>
+  <testcase name="testAllStatusValues" classname="com.example.markr.AttendanceSessionTest" time="0.0"/>
+  <testcase name="testDefaultConstructor" classname="com.example.markr.AttendanceSessionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

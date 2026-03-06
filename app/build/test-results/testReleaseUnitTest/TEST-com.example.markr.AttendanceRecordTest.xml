@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.markr.AttendanceRecordTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2025-11-15T07:56:45.085Z" hostname="ADITYA" time="0.014">
+  <properties/>
+  <testcase name="testCalculateAdviceBelowMinimum" classname="com.example.markr.AttendanceRecordTest" time="0.004"/>
+  <testcase name="testGetClassesCanMiss" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <testcase name="testGetAttendancePercentage" classname="com.example.markr.AttendanceRecordTest" time="0.001"/>
+  <testcase name="testIdSetterGetter" classname="com.example.markr.AttendanceRecordTest" time="0.001"/>
+  <testcase name="testToString" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <testcase name="testGetClassesNeededWhenAboveMin" classname="com.example.markr.AttendanceRecordTest" time="0.001"/>
+  <testcase name="testSettersAndGetters" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <testcase name="testWeekdaysSetterGetter" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <testcase name="testGetClassesNeeded" classname="com.example.markr.AttendanceRecordTest" time="0.001"/>
+  <testcase name="testDateCreatedNotNull" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <testcase name="testRecordCreation" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <testcase name="testCalculatePercentage" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <testcase name="testGetAttendanceAdvice" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <testcase name="testGetClassesCanMissWhenBelowMin" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <testcase name="testCalculatePercentageZeroTotal" classname="com.example.markr.AttendanceRecordTest" time="0.001"/>
+  <testcase name="testSessionsPerWeekSetterGetter" classname="com.example.markr.AttendanceRecordTest" time="0.002"/>
+  <testcase name="testCalculateAdviceAboveMinimum" classname="com.example.markr.AttendanceRecordTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

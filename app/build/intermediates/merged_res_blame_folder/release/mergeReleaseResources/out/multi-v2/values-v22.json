@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.markr.app-mergeReleaseResources-45:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\adij7\\.gradle\\caches\\8.13\\transforms\\46d1824974a83bfe680c4578e07273fb\\transformed\\appcompat-1.7.1\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        }
+    ]
+}

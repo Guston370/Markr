@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.markr.EdgeCaseTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-11-15T07:56:45.172Z" hostname="ADITYA" time="0.013">
+  <properties/>
+  <testcase name="testLargeNumbersHandling" classname="com.example.markr.EdgeCaseTest" time="0.0"/>
+  <testcase name="testAttendanceRecordWith100MinAttendance" classname="com.example.markr.EdgeCaseTest" time="0.001"/>
+  <testcase name="testSubjectWithNoWeekdays" classname="com.example.markr.EdgeCaseTest" time="0.0"/>
+  <testcase name="testAttendanceRecordWithZeroMinAttendance" classname="com.example.markr.EdgeCaseTest" time="0.0"/>
+  <testcase name="testAttendanceSessionStatusConversion" classname="com.example.markr.EdgeCaseTest" time="0.0"/>
+  <testcase name="testAttendanceRecordBoundaryPercentages" classname="com.example.markr.EdgeCaseTest" time="0.001"/>
+  <testcase name="testSubjectWith100PercentAttendance" classname="com.example.markr.EdgeCaseTest" time="0.0"/>
+  <testcase name="testUserWithZeroStats" classname="com.example.markr.EdgeCaseTest" time="0.01"/>
+  <testcase name="testSubjectNameCaseSensitivity" classname="com.example.markr.EdgeCaseTest" time="0.001"/>
+  <testcase name="testCalendarDayBoundaries" classname="com.example.markr.EdgeCaseTest" time="0.0"/>
+  <testcase name="testSubjectWithMultipleSessionsPerDay" classname="com.example.markr.EdgeCaseTest" time="0.0"/>
+  <testcase name="testUserStreakNeverDecreases" classname="com.example.markr.EdgeCaseTest" time="0.0"/>
+  <testcase name="testSubjectWith0PercentAttendance" classname="com.example.markr.EdgeCaseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

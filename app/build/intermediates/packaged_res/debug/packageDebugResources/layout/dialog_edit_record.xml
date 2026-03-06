@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Subject Name -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Subject Name"
+        style="@style/ModernTextField"
+        app:startIconDrawable="@drawable/ic_book"
+        app:startIconTint="@color/primary_color"
+        app:boxStrokeColor="@color/border_color"
+        app:hintTextColor="@color/secondary_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/subjectEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text"
+            android:inputType="text"
+            android:paddingVertical="16dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Total Classes -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Total Classes"
+        style="@style/ModernTextField"
+        app:startIconDrawable="@drawable/ic_calendar"
+        app:startIconTint="@color/primary_color"
+        app:boxStrokeColor="@color/border_color"
+        app:hintTextColor="@color/secondary_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/totalClassesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text"
+            android:inputType="number"
+            android:paddingVertical="16dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Attended Classes -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Attended Classes"
+        style="@style/ModernTextField"
+        app:startIconDrawable="@drawable/ic_check"
+        app:startIconTint="@color/success_color"
+        app:boxStrokeColor="@color/border_color"
+        app:hintTextColor="@color/secondary_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/attendedClassesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text"
+            android:inputType="number"
+            android:paddingVertical="16dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

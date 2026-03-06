@@ -1,0 +1,350 @@
+[
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_calendar.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_advice_caution_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/advice_caution_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_subject_chemistry_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/subject_chemistry_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_activity_login.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_day_number_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/day_number_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_fragment_profile.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_fragment_calendar.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_header_gradient_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/header_gradient_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_subjects.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_subjects.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_dialog_user_registration.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/dialog_user_registration.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_subject_physics_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/subject_physics_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_lecture_dot.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/lecture_dot.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_dialog_feedback.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/dialog_feedback.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_calendar_modern.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_calendar_modern.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/color_bottom_nav_text_color.xml.flat",
+        "source": "com.example.markr.app-main-48:/color/bottom_nav_text_color.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_fragment_advanced_calculator.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/fragment_advanced_calculator.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_fragment_records.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/fragment_records.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.markr.app-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_percentage_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/percentage_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_profile.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_calendar_normal_border.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/calendar_normal_border.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_simple_calendar_day_item.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/simple_calendar_day_item.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_settings.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_dialog_profile_edit.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/dialog_profile_edit.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_semester.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_semester.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_id.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_id.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_school.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_school.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_fragment_subjects.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/fragment_subjects.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_activity_main.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_dialog_edit_record.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/dialog_edit_record.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_subject_count_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/subject_count_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_lock.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_modern_status_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/modern_status_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_advice_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/advice_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_fragment_calculator.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/fragment_calculator.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_calendar_today_border.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/calendar_today_border.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_dialog_subject_management.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/dialog_subject_management.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/color_bottom_nav_text_selector.xml.flat",
+        "source": "com.example.markr.app-main-48:/color/bottom_nav_text_selector.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_dialog_change_password.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/dialog_change_password.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_percentage_warning_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/percentage_warning_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_modern_background_gradient.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/modern_background_gradient.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_calendar_selected_border.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/calendar_selected_border.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_item_attendance_record.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/item_attendance_record.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_book.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_book.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_info_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/info_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_subject_default_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/subject_default_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_dialog_confirm_delete.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/dialog_confirm_delete.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_day_number_background_modern.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/day_number_background_modern.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_attendance_session_item.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/attendance_session_item.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_status_background_unmarked.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/status_background_unmarked.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_selected_date_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/selected_date_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_fragment_settings.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_session_card_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/session_card_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_subjects_modern.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_subjects_modern.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_item_subject.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/item_subject.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_subject_mathematics_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/subject_mathematics_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/color_bottom_nav_icon_selector.xml.flat",
+        "source": "com.example.markr.app-main-48:/color/bottom_nav_icon_selector.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_profile_modern.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_profile_modern.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.example.markr.app-main-48:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_dialog_notification_settings.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/dialog_notification_settings.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_google.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_check.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_calendar_day_item.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/calendar_day_item.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_bottom_navigation.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/bottom_navigation.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_advice_warning_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/advice_warning_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_dialog_subject_details.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/dialog_subject_details.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_activity_signup.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/layout_fragment_feedback.xml.flat",
+        "source": "com.example.markr.app-main-48:/layout/fragment_feedback.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_email.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_add.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_percentage_error_background.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/percentage_error_background.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_settings_modern.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_settings_modern.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_person.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/xml_backup_rules.xml.flat",
+        "source": "com.example.markr.app-main-48:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.markr.app-main-48:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/drawable_ic_calculator.xml.flat",
+        "source": "com.example.markr.app-main-48:/drawable/ic_calculator.xml"
+    },
+    {
+        "merged": "com.example.markr.app-release-47:/color_bottom_nav_icon_color.xml.flat",
+        "source": "com.example.markr.app-main-48:/color/bottom_nav_icon_color.xml"
+    }
+]

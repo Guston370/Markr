@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.markr.AttendanceManagerIntegrationTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-11-15T07:56:39.789Z" hostname="ADITYA" time="1.464">
+  <properties/>
+  <testcase name="testGetOverallAttendanceWithSubjects" classname="com.example.markr.AttendanceManagerIntegrationTest" time="1.451"/>
+  <testcase name="testGetSubject" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.001"/>
+  <testcase name="testGetOverallAttendanceNoSubjects" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.0"/>
+  <testcase name="testDuplicateSubjectNotAdded" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.001"/>
+  <testcase name="testSingletonPattern" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.0"/>
+  <testcase name="testAddSubject" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.0"/>
+  <testcase name="testGetDayNameFromDate" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.002"/>
+  <testcase name="testFormatDate" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.0"/>
+  <testcase name="testGetAttendanceData" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.001"/>
+  <testcase name="testClearAllData" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.0"/>
+  <testcase name="testRemoveSubject" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.002"/>
+  <testcase name="testGetNonExistentSubject" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.001"/>
+  <testcase name="testGetLecturesForDate" classname="com.example.markr.AttendanceManagerIntegrationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
